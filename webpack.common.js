@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
     entry: {
-        main: './src/index.js',
+        main: './src/js/index.js',
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -45,4 +45,3 @@ module.exports = {
         ],
     },
 };
-console.log(path.resolve(__dirname, 'src/assets'))
