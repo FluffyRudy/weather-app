@@ -1,7 +1,6 @@
 export class WeatherInfo {
     #API_KEY = "3cc93a01996d4195b8f85813231405";
     static current = "https://api.weatherapi.com/v1/current.json";
-    static forecast = "https://api.weatherapi.com/v1/forecast.json";
     static weatherObject = null;
     
     constructor() {
